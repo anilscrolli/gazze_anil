@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/mapbox/light-v11',
+    style: 'mapbox://styles/scrolli/clq2lqbfd01ti01paa4p6988c',
     accessToken: 'pk.eyJ1Ijoic2Nyb2xsaSIsImEiOiJjbHEybGFqOGIwMzF2MmpxdWJxaHFod25sIn0.2QPwdF-SfEf-hz1g-U6GSw',
     showMarkers: false,
     theme: 'light',
