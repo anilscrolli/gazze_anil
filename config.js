@@ -1,6 +1,6 @@
 var config = {
     style: 'mapbox://styles/scrolli/clq2lqbfd01ti01paa4p6988c',
-    accessToken: 'pk.eyJ1Ijoic2Nyb2xsaSIsImEiOiJjbHEybGFqOGIwMzF2MmpxdWJxaHFod25sIn0.2QPwdF-SfEf-hz1g-U6GSw',
+    accessToken: 'pk.eyJ1Ijoic2Nyb2xsaSIsImEiOiJjbHEybDh1YjcwMjgwMmtxd2Roc3J3YWt3In0.uycKijDciND-jcNknmYP1g',
     showMarkers: false,
     theme: 'light',
     title: '',
