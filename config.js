@@ -9,7 +9,6 @@ var config = {
     footer: 'Kaynak: scrolli.co',
     chapters: [
         {
-
             id: 'gaza-world',
             alignment: 'right',
             title: 'Artık Sadece Yapay Zekada Görebileceğiniz Şehir: Gazze',
@@ -35,7 +34,6 @@ var config = {
             ]
         },
         {
-
             id: 'gaza-city',
             alignment: 'right',
             title: 'Gazze Şehri Nasıl Bir Yerdi?',
@@ -55,7 +53,7 @@ var config = {
             ],
             onChapterExit: [
                 {
-                    layer: 'gaza-city,
+                    layer: 'gaza-city',
                     opacity: 0
                 }
             ]
