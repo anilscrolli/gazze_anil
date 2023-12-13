@@ -4,22 +4,22 @@ var config = {
     showMarkers: false,
     theme: 'light',
     use3dTerrain: true,
-    title: '',
-    subtitle: '',
-    byline: '',
-    footer: '',
+    title: 'The Story of Gaza',
+    subtitle: 'A Journey Through Its Landscapes and Heritage',
+    byline: 'By A Dedicated Storyteller',
+    footer: 'Source: Scrolli News',
     chapters: [
         {
-            id: 'phl',
+            id: 'gaza-city',
             alignment: 'right',
-            title: 'Philadelphia Bicycle Infrastructure',
-            image: '',
-            description: 'Getting around Philadelphia on two wheels is fast, fun, and cheap. As a typical East Coast large city, the urban core is dense, so there is a lot within reach of a 15 minute ride... even mountain bike trails. Paired with the public transit infrastructure, cycling can be more efficient and much less expensive than driving (and parking) a car.',
-            location: {
-                center: [-75.13080, 39.97790],
-                zoom: 9.83,
-                pitch: 0.00,
-                bearing: 0.00
+            title: 'Vibrant Streets of Gaza City',
+          image: '',
+         description: 'Explore the bustling streets and vibrant markets that form the heartbeat of Gaza City.',
+          location: {
+        center: [34.4450, 31.5225],
+        zoom: 16.00,
+        pitch: 45.00,
+        bearing: -10.00
             },
             onChapterEnter: [
                 {
