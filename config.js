@@ -42,9 +42,9 @@ var config = {
             image: 'https://raw.githubusercontent.com/ScrolliStudio/scrolli3/main/images/DALLE/GAZZE2.png',
             description: 'Gazze’nin tarihi limanı, savaş öncesi dönemde şehrin ekonomik ve kültürel hayatının kalbiydi.',
             location: {
-                center: [34.431067, 31.525214],
+                center: [34.42908, 31.52444],
                 zoom: 18.00,
-                pitch: 40.00,
+                pitch: 50.00,
                 bearing: 0.00
             },
             onChapterEnter: [
@@ -62,8 +62,8 @@ var config = {
             image: 'https://raw.githubusercontent.com/ScrolliStudio/scrolli3/main/images/DALLE/GAZZE3.png',
             description: 'Savaş öncesinde Gazze’nin eğitim merkezi olan El-Ezher Üniversitesi, gençler için umut ve ilham kaynağıydı.',
             location: {
-                center: [34.4397788, 31.5149879],
-                zoom: 17.00,
+                center: [34.44057, 31.51117],
+                zoom: 20.00,
                 pitch: 50.00,
                 bearing: -5.00
             },
@@ -86,9 +86,9 @@ var config = {
         image: 'https://raw.githubusercontent.com/ScrolliStudio/scrolli3/main/images/DALLE/GAZZE4.png',
         description: 'Gazze’nin sahilleri, savaş öncesi halkın buluşma noktasıydı. Şimdi ise sakinliğin ve geçmişin hüzünlü anılarının bir simgesi.',
         location: {
-            center: [34.36186, 31.45668],
+            center: [34.41718, 31.50717],
             zoom: 15.50,
-            pitch: 30.00,
+            pitch: 50.00,
             bearing: 10.00
             },
             onChapterEnter: [
@@ -136,9 +136,9 @@ var config = {
             image: 'https://raw.githubusercontent.com/ScrolliStudio/scrolli3/main/images/DALLE/GAZZE6.png',
             description: 'Gazze’nin tarım alanları, savaş öncesi halkın geçim kaynağıydı. Artık bu tarlalar, savaşın ve zorlukların tanığı olarak duruyor.',
             location: {
-                center: [34.4724, 31.4992],
+                center: [34.53361, 31.51572],
                 zoom: 15.00,
-                pitch: 40.00,
+                pitch: 60.00,
                 bearing: 30.00
             },
             onChapterEnter: [
