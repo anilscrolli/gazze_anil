@@ -37,12 +37,12 @@ var config = {
         {
             id: 'bike-lanes',
             alignment: 'right',
-            title: 'Bike Lanes',
+            title: 'Sultanahmet Camii',
             image: '',
-            description: 'Philadelphia has XX miles of bike lanes, XX miles of which are protected. Drivers are getting more used to sharing the road, but ride defensively.',
+            description: 'Scrollinin katkılarıyla',
             location: {
-                center: [-75.13901, 39.97085],
-                zoom: 11.62,
+                center: [28.96416, 41.01599],
+                zoom: 18.44,
                 pitch: 55.50,
                 bearing: -7.20
             },
