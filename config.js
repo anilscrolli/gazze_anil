@@ -66,7 +66,7 @@ var config = {
             image: 'https://raw.githubusercontent.com/ScrolliStudio/scrolli3/main/images/DALLE/GAZZE2.png',
             description: 'Gazze’nin tarihi limanı, savaş öncesi dönemde şehrin ekonomik ve kültürel hayatının kalbiydi.',
             location: {
-                center: [34.42908, 31.52444],
+                center: [34.43098, 31.52349],
                 zoom: 18.00,
                 pitch: 50.00,
                 bearing: 0.00
