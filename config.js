@@ -2,7 +2,7 @@ var config = {
     style: 'mapbox://styles/mapbox/standard',
     accessToken: 'pk.eyJ1Ijoic2Nyb2xsaSIsImEiOiJjbHEybDh1YjcwMjgwMmtxd2Roc3J3YWt3In0.uycKijDciND-jcNknmYP1g',
     showMarkers: false,
-    theme: 'dark',
+    theme: 'light',
     alignment: 'left',
     title: 'The Story of Gaza',
     subtitle: 'A Journey Through Its Landscapes and Heritage',
@@ -13,24 +13,24 @@ var config = {
 
             id: 'gaza-city',
             alignment: 'right',
-            title: 'Vibrant Streets of Gaza City',
+            title: 'Gazze Şehri Nasıl Bir Yerdi?',
             image: '',
-            description: 'Explore the bustling streets and vibrant markets that form the heartbeat of Gaza City.',
+            description: 'Bir zamanlar canlı sokakları ve pazarlarıyla tanınan Gazze Şehri, tarihi ve kültürel bir zenginliğe sahipti.',
             location: {
                 center: [34.4450, 31.5225],
-                zoom: 16.00,
+                zoom: 12.00,
                 pitch: 45.00,
                 bearing: -10.00
             },
             onChapterEnter: [
                 {
-                    layer: 'phl-city-limits',
+                    layer: 'gaza-city',
                     opacity: .45
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'phl-city-limits',
+                    layer: 'gaza-port',
                     opacity: 0
                 }
             ]
@@ -38,11 +38,11 @@ var config = {
         {
             id: 'gaza-port',
             alignment: 'right',
-            title: 'Historical Port of Gaza',
+            title: 'Kaybolan Tarihi Liman',
             image: '',
-            description: 'Discover the historical Port of Gaza, a gateway to the Mediterranean Sea and a symbol of resilience.',
+            description: 'Gazze’nin tarihi limanı, savaş öncesi dönemde şehrin ekonomik ve kültürel hayatının kalbiydi.',
             location: {
-                center: [34.4575, 31.5050],
+                center: [34.431067, 31.525214],
                 zoom: 18.00,
                 pitch: 40.00,
                 bearing: 0.00
@@ -58,49 +58,48 @@ var config = {
         {
             id: 'al-azhar-university',
             alignment: 'right',
-            title: 'Al-Azhar University: A Beacon of Learning',
+            title: 'Eğitimin Işığı: El-Ezher Üniversitesi',
             image: '',
-            description: 'Delve into Al-Azhar University, a center of academic excellence and cultural exchange in Gaza.',
+            description: 'Savaş öncesinde Gazze’nin eğitim merkezi olan El-Ezher Üniversitesi, gençler için umut ve ilham kaynağıydı.',
             location: {
-                center: [34.4411, 31.5111],
+                center: [34.4397788, 31.5149879],
                 zoom: 17.00,
                 pitch: 50.00,
                 bearing: -5.00
             },
             onChapterEnter: [
                 {
-                    layer: 'indego-stations',
+                    layer: 'al-azhar-university',
                     opacity: 0.8
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'indego-stations',
+                    layer: 'al-azhar-university',
                     opacity: 0
                 }
             ]
         },
-        {
-            id: 'gaza-beaches',
-            alignment: 'right',
-            title: 'Serene Beaches of Gaza',
-            image: '',
-            description: 'Experience the serene beauty of Gaza’s beaches, offering a moment of peace and reflection.',
-            location: {
-                center: [34.4648, 31.5019],
-                zoom: 15.50,
-                pitch: 30.00,
-                bearing: 10.00
+        {id: 'gaza-beaches',
+        alignment: 'right',
+        title: 'Gazze’nin Huzur Veren Sahilleri',
+        image: '',
+        description: 'Gazze’nin sahilleri, savaş öncesi halkın buluşma noktasıydı. Şimdi ise sakinliğin ve geçmişin hüzünlü anılarının bir simgesi.',
+        location: {
+            center: [34.36186, 31.45668],
+            zoom: 15.50,
+            pitch: 30.00,
+            bearing: 10.00
             },
             onChapterEnter: [
                 {
-                    layer: 'belmont',
+                    layer: 'gaza-beaches',
                     opacity: 1
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'belmont',
+                    layer: 'gaza-beaches',
                     opacity: 0
                 }
             ]
@@ -108,9 +107,9 @@ var config = {
         {
             id: 'gaza-unesco',
             alignment: 'right',
-            title: 'UNESCO Heritage Sites in Gaza',
+            title: 'Kaybolan Miras: Gazze’nin UNESCO Alanları',
             image: '',
-            description: 'Discover the rich history of Gaza through its UNESCO Heritage Sites, showcasing the region’s cultural and historical depth.',
+            description: 'Gazze’nin UNESCO Dünya Mirası Alanları, şehrin zengin tarihini ve kültürünü sergiliyordu. Bugün bu alanlar savaşın yıkıcı etkilerini yansıtıyor.',
             location: {
                 center: [34.4521, 31.5169],
                 zoom: 17.00,
@@ -119,13 +118,13 @@ var config = {
             },
             onChapterEnter: [
                 {
-                    layer: 'wissahickon',
+                    layer: 'gaza-unesco',
                     opacity: 1
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'wissahickon',
+                    layer: 'gaza-unesco',
                     opacity: 0
                 }
             ]
@@ -133,9 +132,9 @@ var config = {
         {
             id: 'gaza-agriculture',
             alignment: 'right',
-            title: 'Agriculture in Gaza: The Green Plains',
+            title: 'Yeşeren Umutlar: Gazze’nin Tarlaları',
             image: '',
-            description: 'Gaza’s agriculture is a testament to the resilience and resourcefulness of its people. Explore the green plains that symbolize hope and sustenance.',
+            description: 'Gazze’nin tarım alanları, savaş öncesi halkın geçim kaynağıydı. Artık bu tarlalar, savaşın ve zorlukların tanığı olarak duruyor.',
             location: {
                 center: [34.4724, 31.4992],
                 zoom: 15.00,
@@ -144,13 +143,13 @@ var config = {
             },
             onChapterEnter: [
                 {
-                    layer: 'pennypack',
+                    layer: 'gaza-agriculture',
                     opacity: 1
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'pennypack',
+                    layer: 'gaza-agriculture',
                     opacity: 0
                 }
             ]
