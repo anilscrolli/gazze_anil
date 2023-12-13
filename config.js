@@ -12,7 +12,7 @@ var config = {
         {
 
             id: 'gaza-world',
-            alignment: 'center',
+            alignment: 'right',
             title: 'Artık Sadece Yapay Zekada Görebileceğiniz Şehir: Gazze',
             image: 'https://raw.githubusercontent.com/ScrolliStudio/scrolli3/main/images/DALLE/gazze-landscape.png',
             description: 'Scrolli Tarafından Derlendi',
