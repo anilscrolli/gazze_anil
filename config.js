@@ -86,10 +86,10 @@ var config = {
             image: 'https://raw.githubusercontent.com/ScrolliStudio/scrolli3/main/images/DALLE/GAZZE3.png',
             description: 'Savaş öncesinde Gazze’nin eğitim merkezi olan El-Ezher Üniversitesi, gençler için umut ve ilham kaynağıydı.',
             location: {
-                center: [34.44057, 31.51117],
+                center: [34.44072, 31.51130],
                 zoom: 18.00,
                 pitch: 50.00,
-                bearing: -5.00
+                bearing: -141.60
             },
             onChapterEnter: [
                 {
@@ -138,7 +138,7 @@ var config = {
             location: {
                 center: [34.4521, 31.5169],
                 zoom: 18.00,
-                pitch: 50.00,
+                pitch: 60.00,
                 bearing: 20.00
             },
             onChapterEnter: [
@@ -161,9 +161,9 @@ var config = {
             image: 'https://raw.githubusercontent.com/ScrolliStudio/scrolli3/main/images/DALLE/GAZZE6.png',
             description: 'Gazze’nin tarım alanları, savaş öncesi halkın geçim kaynağıydı. Artık bu tarlalar, savaşın ve zorlukların tanığı olarak duruyor.',
             location: {
-                center: [34.53361, 31.51572],
+                center: [34.51936, 31.50836],
                 zoom: 15.00,
-                pitch: 60.00,
+                pitch: 70.00,
                 bearing: 30.00
             },
             onChapterEnter: [
