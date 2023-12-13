@@ -3,7 +3,6 @@ var config = {
     accessToken: 'pk.eyJ1Ijoic2Nyb2xsaSIsImEiOiJjbHEybDh1YjcwMjgwMmtxd2Roc3J3YWt3In0.uycKijDciND-jcNknmYP1g',
     showMarkers: false,
     theme: 'light',
-    alignment: 'left',
     title: '',
     subtitle: '',
     byline: '',
