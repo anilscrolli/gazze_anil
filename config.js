@@ -4,10 +4,10 @@ var config = {
     showMarkers: false,
     theme: 'light',
     alignment: 'left',
-    title: 'The Story of Gaza',
-    subtitle: 'A Journey Through Its Landscapes and Heritage',
-    byline: 'Curated by Scrolli',
-    footer: 'Source: Scrolli',
+    title: 'Artık Sadece Yapay Zekada Görebileceğiniz Şehir: Gazze',
+    subtitle: 'Savaşın Gölgesinde Kaybolan Miras ve Manzaralar',
+    byline: 'Scrolli Tarafından Derlendi',
+    footer: 'Kaynak: scrolli.co',
     chapters: [
         {
 
