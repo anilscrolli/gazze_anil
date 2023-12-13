@@ -10,7 +10,7 @@ var config = {
     chapters: [
         {
             id: 'gaza-world',
-            alignment: 'right',
+            alignment: 'center',
             title: 'Artık Sadece Yapay Zekada Görebileceğiniz Şehir: Gazze',
             image: 'https://raw.githubusercontent.com/ScrolliStudio/scrolli3/main/images/DALLE/gazze-landscape.png',
             description: 'Scrolli Tarafından Derlendi',
