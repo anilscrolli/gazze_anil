@@ -87,7 +87,7 @@ var config = {
             description: 'Savaş öncesinde Gazze’nin eğitim merkezi olan El-Ezher Üniversitesi, gençler için umut ve ilham kaynağıydı.',
             location: {
                 center: [34.44057, 31.51117],
-                zoom: 20.00,
+                zoom: 18.00,
                 pitch: 50.00,
                 bearing: -5.00
             },
