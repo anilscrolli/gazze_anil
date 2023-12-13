@@ -137,7 +137,7 @@ var config = {
             description: 'Gazze’nin UNESCO Dünya Mirası Alanları, şehrin zengin tarihini ve kültürünü sergiliyordu. Bugün bu alanlar savaşın yıkıcı etkilerini yansıtıyor.',
             location: {
                 center: [34.4521, 31.5169],
-                zoom: 17.00,
+                zoom: 18.00,
                 pitch: 50.00,
                 bearing: 20.00
             },
