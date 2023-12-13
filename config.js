@@ -4,11 +4,37 @@ var config = {
     showMarkers: false,
     theme: 'light',
     alignment: 'left',
-    title: 'Artık Sadece Yapay Zekada Görebileceğiniz Şehir: Gazze',
-    subtitle: 'Savaşın Gölgesinde Kaybolan Miras ve Manzaralar',
-    byline: 'Scrolli Tarafından Derlendi',
+    title: '',
+    subtitle: '',
+    byline: '',
     footer: 'Kaynak: scrolli.co',
     chapters: [
+        {
+
+            id: 'gaza-world',
+            alignment: 'center',
+            title: 'Artık Sadece Yapay Zekada Görebileceğiniz Şehir: Gazze',
+            image: 'https://raw.githubusercontent.com/ScrolliStudio/scrolli3/main/images/DALLE/gazze-landscape.png',
+            description: 'Scrolli Tarafından Derlendi',
+            location: {
+                center: [35.45012, 33.11681],
+                zoom: 2.70,
+                pitch: 45.00,
+                bearing: 1.60
+            },
+            onChapterEnter: [
+                {
+                    layer: 'gaza-world',
+                    opacity: .45
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'gaza-world',
+                    opacity: 0
+                }
+            ]
+        },
         {
 
             id: 'gaza-city',
@@ -30,7 +56,7 @@ var config = {
             ],
             onChapterExit: [
                 {
-                    layer: 'gaza-port',
+                    layer: 'gaza-city,
                     opacity: 0
                 }
             ]
@@ -80,16 +106,17 @@ var config = {
                 }
             ]
         },
-        {id: 'gaza-beaches',
-        alignment: 'right',
-        title: 'Gazze’nin Huzur Veren Sahilleri',
-        image: 'https://raw.githubusercontent.com/ScrolliStudio/scrolli3/main/images/DALLE/GAZZE4.png',
-        description: 'Gazze’nin sahilleri, savaş öncesi halkın buluşma noktasıydı. Şimdi ise sakinliğin ve geçmişin hüzünlü anılarının bir simgesi.',
-        location: {
-            center: [34.41718, 31.50717],
-            zoom: 15.50,
-            pitch: 50.00,
-            bearing: 10.00
+        {
+            id: 'gaza-beaches',
+            alignment: 'right',
+            title: 'Gazze’nin Huzur Veren Sahilleri',
+            image: 'https://raw.githubusercontent.com/ScrolliStudio/scrolli3/main/images/DALLE/GAZZE4.png',
+            description: 'Gazze’nin sahilleri, savaş öncesi halkın buluşma noktasıydı. Şimdi ise sakinliğin ve geçmişin hüzünlü anılarının bir simgesi.',
+            location: {
+                center: [34.41718, 31.50717],
+                zoom: 15.50,
+                pitch: 50.00,
+                bearing: 10.00
             },
             onChapterEnter: [
                 {
