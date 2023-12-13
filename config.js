@@ -111,10 +111,10 @@ var config = {
             image: 'https://raw.githubusercontent.com/ScrolliStudio/scrolli3/main/images/DALLE/GAZZE4.png',
             description: 'Gazze’nin sahilleri, savaş öncesi halkın buluşma noktasıydı. Şimdi ise sakinliğin ve geçmişin hüzünlü anılarının bir simgesi.',
             location: {
-                center: [34.41718, 31.50717],
-                zoom: 15.50,
+                center: [34.42447, 31.51576],
+                zoom: 16.50,
                 pitch: 50.00,
-                bearing: 10.00
+                bearing: -58.40
             },
             onChapterEnter: [
                 {
