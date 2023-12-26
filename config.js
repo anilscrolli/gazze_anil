@@ -16,26 +16,7 @@ var config = {
                 pitch: 0,
                 bearing: 0
             },
-            onChapterEnter: [
-                {
-                    layer: 'isgal-alani',
-                    opacity: 0
-                }
-                {
-                    layer: 'yikim',
-                    opacity: 0
-                }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'isgal-alani',
-                    opacity: 0
-                }
-                {
-                    layer: 'yikim',
-                    opacity: 0
-                }
-            ]
+        
         },
         {
             id: 'gaza-isgal',
@@ -50,6 +31,10 @@ var config = {
                 bearing: 0
             },
             onChapterEnter: [
+                {
+                    layer: 'gaza-isgal',
+                    opacity: 1
+                }
                 {
                     layer: 'isgal-alani',
                     opacity: 0
