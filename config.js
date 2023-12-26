@@ -11,10 +11,10 @@ var config = {
         {
            
             location: {
-                center: [35.45012, 33.11681],
-                zoom: 2.70,
-                pitch: 45.00,
-                bearing: 1.60
+                center: [33.74970, 31.71947],
+                zoom: 3.74,
+                pitch: 0,
+                bearing: 0
             },
             
         },
