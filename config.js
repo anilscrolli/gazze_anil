@@ -46,6 +46,10 @@ var config = {
             ],
             onChapterExit: [
                 {
+                    layer: 'gaza-isgal',
+                    opacity: 0
+                }
+                {
                     layer: 'isgal-alani',
                     opacity: .8
                 }
