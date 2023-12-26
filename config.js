@@ -35,28 +35,11 @@ var config = {
                     layer: 'gaza-isgal',
                     opacity: 1
                 }
-                {
-                    layer: 'isgal-alani',
-                    opacity: 0
-                }
-                {
-                    layer: 'yikim',
-                    opacity: 0
-                }
             ],
             onChapterExit: [
                 {
                     layer: 'gaza-isgal',
                     opacity: 0
-                }
-                {
-                    layer: 'isgal-alani',
-                    opacity: .8
-                }
-                {
-                    layer: 'yikim',
-                    opacity: 0
-                }
             ]
         },
         {
@@ -77,7 +60,12 @@ var config = {
                     opacity: 1
                 }
             ],
-            onChapterExit: []
+            onChapterExit: [
+                {
+                    layer: 'gaza-port',
+                    opacity: 1
+                }
+            ]
         },
         {
             id: 'al-azhar-university',
