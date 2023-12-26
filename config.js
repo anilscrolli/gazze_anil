@@ -7,13 +7,13 @@ var config = {
     subtitle: '',
     byline: '',
     footer: 'Kaynak: scrolli.co',
+    chapters: [
             location: {
                 center: [35.45012, 33.11681],
                 zoom: 2.70,
                 pitch: 45.00,
                 bearing: 1.60
             },
-        chapters: [
             {
             id: 'gaza-city',
             alignment: 'right',
