@@ -23,7 +23,7 @@ var config = {
             onChapterEnter: [
                 {
                     layer: 'gaza-world',
-                    opacity: .45
+                    opacity: 0
                 }
             ],
             onChapterExit: [
