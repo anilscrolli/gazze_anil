@@ -16,29 +16,56 @@ var config = {
                 pitch: 0,
                 bearing: 0
             },
-            
-        },
-        {
-            id: 'gaza-city',
-            alignment: 'right',
-            title: 'Gazze Şehri Nasıl Bir Yerdi?',
-            image: '',
-            description: 'Bir zamanlar canlı sokakları ve pazarlarıyla tanınan Gazze Şehri, tarihi ve kültürel bir zenginliğe sahipti.',
-            location: {
-                center: [34.4450, 31.5225],
-                zoom: 12.00,
-                pitch: 45.00,
-                bearing: -10.00
-            },
             onChapterEnter: [
                 {
-                    layer: 'gaza-city',
-                    opacity: .45
+                    layer: 'isgal-alani',
+                    opacity: 0
+                }
+                {
+                    layer: 'yikim',
+                    opacity: 0
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'gaza-city',
+                    layer: 'isgal-alani',
+                    opacity: 0
+                }
+                {
+                    layer: 'yikim',
+                    opacity: 0
+                }
+            ]
+        },
+        {
+            id: 'gaza-isgal',
+            alignment: 'right',
+            title: 'İsrail kuzeyden girdi!',
+            image: '',
+            description: 'Gazze'nin kuzey bölgesinden giren birlikler kısa sürede şehrin dış mahallelerini işgal etti.',
+            location: {
+                center: [34.44691, 31.46607],
+                zoom: 10.89,
+                pitch: 36.50,
+                bearing: 0
+            },
+            onChapterEnter: [
+                {
+                    layer: 'isgal-alani',
+                    opacity: 0
+                }
+                {
+                    layer: 'yikim',
+                    opacity: 0
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'isgal-alani',
+                    opacity: .8
+                }
+                {
+                    layer: 'yikim',
                     opacity: 0
                 }
             ]
